@@ -16,9 +16,6 @@ TODO: Add long description of the pod here.
 
   s.static_framework = true
   
-  p = Dir::open("ios_frameworks")
-  arr = Array.new
-  arr.push('ios_frameworks/*.framework')
-  s.ios.vendored_frameworks = arr
+  s.source_files = 'tempLib/**/*.{h,m}'
 end
 
