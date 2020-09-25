@@ -17,8 +17,7 @@
 		07860A60251D935C001F12EF /* IosFlutterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07860A5F251D935C001F12EF /* IosFlutterTests.m */; };
 		07860A6B251D935C001F12EF /* IosFlutterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07860A6A251D935C001F12EF /* IosFlutterUITests.m */; };
 		07860A81251D939F001F12EF /* BMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07860A80251D939F001F12EF /* BMViewController.m */; };
-		07860A86251D93B2001F12EF /* flutter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 07860A85251D93B2001F12EF /* flutter.podspec */; };
-		07860A91251D941F001F12EF /* moonAngelFlutter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 07860A90251D941F001F12EF /* moonAngelFlutter.podspec */; };
+		07860A99251D970A001F12EF /* BMFlutterUserTest.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 07860A98251D970A001F12EF /* BMFlutterUserTest.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +58,7 @@
 		07860A6C251D935C001F12EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07860A7F251D939F001F12EF /* BMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMViewController.h; sourceTree = "<group>"; };
 		07860A80251D939F001F12EF /* BMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMViewController.m; sourceTree = "<group>"; };
-		07860A85251D93B2001F12EF /* flutter.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = flutter.podspec; sourceTree = SOURCE_ROOT; };
-		07860A90251D941F001F12EF /* moonAngelFlutter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = moonAngelFlutter.podspec; path = "../../../Library/Containers/com.tencent.WeWorkMac/Data/Library/Application Support/WXWork/Data/1688851917317096/Cache/File/2020-09/moonAngelFlutter.podspec"; sourceTree = "<group>"; };
+		07860A98251D970A001F12EF /* BMFlutterUserTest.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMFlutterUserTest.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +109,8 @@
 		07860A42251D9358001F12EF /* IosFlutter */ = {
 			isa = PBXGroup;
 			children = (
+				07860A98251D970A001F12EF /* BMFlutterUserTest.podspec */,
 				07860A7E251D939F001F12EF /* userLib */,
-				07860A85251D93B2001F12EF /* flutter.podspec */,
-				07860A90251D941F001F12EF /* moonAngelFlutter.podspec */,
 				07860A43251D9358001F12EF /* AppDelegate.h */,
 				07860A44251D9358001F12EF /* AppDelegate.m */,
 				07860A46251D9358001F12EF /* SceneDelegate.h */,
@@ -259,9 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07860A53251D935B001F12EF /* LaunchScreen.storyboard in Resources */,
-				07860A86251D93B2001F12EF /* flutter.podspec in Resources */,
+				07860A99251D970A001F12EF /* BMFlutterUserTest.podspec in Resources */,
 				07860A50251D935B001F12EF /* Assets.xcassets in Resources */,
-				07860A91251D941F001F12EF /* moonAngelFlutter.podspec in Resources */,
 				07860A4E251D9358001F12EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

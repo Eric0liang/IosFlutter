@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'flutter'
+  s.name             = 'BMFlutterUserTest'
   s.version          = '2.0.1'
   s.summary          =  'Flutter 插件模块'
 
