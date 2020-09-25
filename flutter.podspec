@@ -11,11 +11,12 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liangjiangli' => 'ljiang.li.90@gmail.com' }
   s.source           = { :git => 'https://github.com/Eric0liang/IosFlutter.git', :tag => s.version }
-
   s.ios.deployment_target = '9.0'
-
-  s.static_framework = true
   
-  s.source_files = 'tempLib/**/*.{h,m}'
-end
+  s.static_framework = true
+  p = Dir::open("ios_frameworks")
+  arr = Array.new
+  arr.push('ios_frameworks/*.framework')
+  s.ios.vendored_frameworks = arr
+  end
 
